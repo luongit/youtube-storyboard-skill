@@ -1,0 +1,74 @@
+{
+  "project": "Bồ-tát và đàn chó (mẫu)",
+  "slug": "mau-bo-tat-va-dan-cho",
+  "aspect_ratio": "16:9",
+  "scene_duration_sec": 10,
+  "style": {
+    "art_style": "2D Vietnamese folk-tale animation, soft cel shading, warm painterly backgrounds",
+    "palette": "saffron, moss green, moonlit indigo, warm earth tones",
+    "lighting": "soft cinematic lighting adjusted per scene mood",
+    "camera": "35mm cinematic framing"
+  },
+  "characters": [
+    {
+      "id": "NARRATOR",
+      "name": "Người dẫn chuyện",
+      "role": "Lời dẫn",
+      "voice": { "engine": "vieneu", "voice": "Thanh Bình", "speed": 1.0 }
+    },
+    {
+      "id": "BO_TAT",
+      "name": "Bồ-tát",
+      "role": "Nhân vật chính",
+      "voice": { "engine": "vieneu", "voice": "Thiền Tâm Đức", "speed": 0.95 },
+      "description_vi": "Chó đầu đàn lông trắng ánh vàng, thân hình thanh thoát, ánh mắt hiền từ và trí tuệ.",
+      "anchor_en": "BO_TAT: a noble white-golden dog leader with a slender build, soft glowing fur, calm wise amber eyes, a faint golden halo-like light around the head"
+    },
+    {
+      "id": "CHO_NHO",
+      "name": "Chó nhỏ",
+      "role": "Nhân vật phụ",
+      "voice": { "engine": "vieneu", "voice": "Trúc Ly", "speed": 1.1 },
+      "description_vi": "Chó con lông nâu đốm, tai cụp, hay run rẩy.",
+      "anchor_en": "CHO_NHO: a small brown spotted puppy with floppy ears, big frightened black eyes, thin red collar"
+    }
+  ],
+  "props": [
+    { "id": "YEN_CUONG", "name": "Yên cương ngựa bị cắn rách", "prompt_en": "royal leather horse saddle and reins, dark brown leather with gold trim, chewed and torn edges" }
+  ],
+  "locations": [
+    { "id": "NGHIA_DIA", "name": "Nghĩa địa ven rừng", "prompt_en": "old forest-edge cemetery in ancient rural Vietnam, weathered stone tombs, incense sticks, banyan tree, misty night under full moon" }
+  ],
+  "scenes": [
+    {
+      "scene": 1,
+      "title": "Đàn chó chạy đến cầu cứu Bồ-tát",
+      "location": "NGHIA_DIA",
+      "mood": "hoảng loạn → hy vọng",
+      "visual": "Đàn chó chạy vào nghĩa địa trong đêm, tụ quanh Bồ-tát kể lại lệnh truy bắt của nhà vua.",
+      "audio": "Tiếng chó sủa xa, gió rít, nhạc nền căng thẳng chuyển trầm ấm",
+      "panels": [
+        {
+          "panel": 1, "start": 0.0, "end": 2.5, "shot": "Toàn cảnh",
+          "action_vi": "Đàn chó hoảng loạn chạy vào nghĩa địa dưới ánh trăng.",
+          "lines": [ { "speaker": "NARRATOR", "text": "Đêm ấy, đàn chó hoảng loạn tìm đến nghĩa địa." } ]
+        },
+        {
+          "panel": 2, "start": 2.5, "end": 5.0, "shot": "Trung cảnh",
+          "action_vi": "Những con chó tụ tập quanh Bồ-tát.",
+          "lines": [ { "speaker": "CHO_NHO", "text": "Xin ngài cứu chúng con!" } ]
+        },
+        {
+          "panel": 3, "start": 5.0, "end": 7.5, "shot": "Cận cảnh",
+          "action_vi": "Chó nhỏ run sợ kể lại mệnh lệnh của nhà vua.",
+          "lines": [ { "speaker": "CHO_NHO", "text": "Nhà vua đang truy bắt loài chó!" } ]
+        },
+        {
+          "panel": 4, "start": 7.5, "end": 10.0, "shot": "Cận cảnh",
+          "action_vi": "Bồ-tát im lặng lắng nghe, ánh mắt suy tư.",
+          "lines": [ { "speaker": "BO_TAT", "text": "Đừng sợ, ta sẽ tìm ra sự thật." } ]
+        }
+      ]
+    }
+  ]
+}

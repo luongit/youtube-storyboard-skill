@@ -1,0 +1,21 @@
+# Virtual Environment
+.venv/
+env/
+venv/
+
+# Python cache & temporary files
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Project runtime & generated output
+inputs/
+outputs/
+runtime/
+projects/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
